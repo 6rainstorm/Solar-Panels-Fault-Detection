@@ -215,6 +215,11 @@ These are some of the various experiences we have performed to evaluate and comp
 | YOLOv8s | V4 | 200 | 0.001 | 32 | Adam | 50.9% | 58.4% | 0.449 | 0.293 |
 | YOLOv8s | V5 | 100 | 0.001 | 32 | Adam | 52.5% | 51% | 0.463 | 0.304 |
 | YOLOv8s | V5 | 150 | 0.001 | 32 | Adam | 54.6% | 51.4% | 0.48 | 0.302 |
+| YOLOv5 | Final | 50 | 0.001 | 16 | AdamW | 76.9% | 66% | 0.703 | 0.477 |
+| YOLOv6-Meituan | Final | 50 | 0.001 | 16 | AdamW | 55.92% | 46.2% | 0.428 | 0.35 |
+| YOLOv7/R | Final | 50 | 0.001 | 16 | AdamW | 47.4% | 66.2% | 0.517 | 0.312 |
+| YOLOv8 | Final | 50 | 0.001 | 16 | AdamW | 80% | 67.1% | 0.725 | 0.545 |
+| YOLOv11 | Final | 50 | 0.001 | 16 | AdamW | 75.4% | 67% | 0.711 | 0.527 |
 | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
 
 The final result we get is :  
