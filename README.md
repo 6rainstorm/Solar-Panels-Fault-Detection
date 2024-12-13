@@ -231,6 +231,8 @@ Besides that, we also try custom hyperparameters :
 | model | dataset_version | epoch | learning_rate | batch_size | optimizer | precision | recall | mAP50 | mAP50-95 | learning_rate_factor | weight_decay | dropout | label_smoothing | momentum|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | YOLOv8s Custom Hyp | Final | 175 |  0.00001 | 32 | SGD | 74,5% | 66,% | 0.709 | 0.522 | 0.01 | 0.000001| 0.3 | 0.1 | 0.99|
+| YOLOv8m Custom Hyp | Final | 100 |  0,0001 | 16 | SGD | 79,9% | 70,4% | 0.748 | 0.585 | 0.01 | 0.000001| 0.3 | 0.1 | 0.99|
+| YOLOv8m Custom Hyp | Final | 100 |  0,0001 | 32 | SGD | 81% | 69.3% | 0.748 | 0.587 | 0.01 | 0.000001| 0.3 | 0.1 | 0.99|
 
 #### 3. Training/Validation Curve
 The following are the visualization results of the confusion matrix and training graphs metrics that are obtained based on the training of the YOLOv8s model using the final dataset.
